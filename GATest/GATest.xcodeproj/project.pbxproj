@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A50913BE15E5D7CB00CF36CF /* BobGameView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A50913BD15E5D7CB00CF36CF /* BobGameView.mm */; };
+		A57A72E315E22B3B002190FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57A72E215E22B3B002190FA /* UIKit.framework */; };
+		A57A72E515E22B3B002190FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57A72E415E22B3B002190FA /* Foundation.framework */; };
+		A57A72E715E22B3B002190FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57A72E615E22B3B002190FA /* CoreGraphics.framework */; };
+		A57A72ED15E22B3B002190FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A57A72EB15E22B3B002190FA /* InfoPlist.strings */; };
+		A57A72EF15E22B3B002190FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A57A72EE15E22B3B002190FA /* main.m */; };
+		A57A72F315E22B3B002190FA /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = A57A72F215E22B3B002190FA /* AppDelegate.mm */; };
+		A57A72F615E22B3B002190FA /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A57A72F515E22B3B002190FA /* ViewController.mm */; };
+		A57A72F915E22B3B002190FA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A57A72F715E22B3B002190FA /* ViewController.xib */; };
+		A5EFF16215E4ADA1008EFF36 /* SpriteView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A5EFF16115E4ADA1008EFF36 /* SpriteView.mm */; };
+		A5EFF17E15E4DE54008EFF36 /* Bob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5EFF17D15E4DE54008EFF36 /* Bob.cpp */; };
+		A5EFF18215E4E0D5008EFF36 /* CBobsMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5EFF18015E4E0D4008EFF36 /* CBobsMap.cpp */; };
+		A5EFF18515E4E134008EFF36 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5EFF18315E4E134008EFF36 /* utils.cpp */; };
+		A5F885E115E34EC6006BFBD9 /* Other.h in Sources */ = {isa = PBXBuildFile; fileRef = A5F885E015E34EC6006BFBD9 /* Other.h */; };
+		A5F885E515E34F1D006BFBD9 /* Test.mm in Sources */ = {isa = PBXBuildFile; fileRef = A5F885E415E34F1D006BFBD9 /* Test.mm */; };
+		A5F885EA15E3517F006BFBD9 /* GenericAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F885E615E3517D006BFBD9 /* GenericAlgorithm.cpp */; };
+		A5F885EB15E3517F006BFBD9 /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F885E815E3517E006BFBD9 /* Sprite.cpp */; };
+		A5F8884C15E354FF006BFBD9 /* GA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F8884B15E354FD006BFBD9 /* GA.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A50913B915E5D3DD00CF36CF /* BobGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BobGameView.h; sourceTree = "<group>"; };
+		A50913BD15E5D7CB00CF36CF /* BobGameView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BobGameView.mm; sourceTree = "<group>"; };
+		A57A72DE15E22B3B002190FA /* GATest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GATest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57A72E215E22B3B002190FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A57A72E415E22B3B002190FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A57A72E615E22B3B002190FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A57A72EA15E22B3B002190FA /* GATest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GATest-Info.plist"; sourceTree = "<group>"; };
+		A57A72EC15E22B3B002190FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A57A72EE15E22B3B002190FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A57A72F015E22B3B002190FA /* GATest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GATest-Prefix.pch"; sourceTree = "<group>"; };
+		A57A72F115E22B3B002190FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A57A72F215E22B3B002190FA /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		A57A72F415E22B3B002190FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A57A72F515E22B3B002190FA /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		A57A72F815E22B3B002190FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A5EFF16015E4ADA1008EFF36 /* SpriteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteView.h; sourceTree = "<group>"; };
+		A5EFF16115E4ADA1008EFF36 /* SpriteView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SpriteView.mm; sourceTree = "<group>"; };
+		A5EFF17B15E4DE4A008EFF36 /* Bob.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bob.h; sourceTree = "<group>"; };
+		A5EFF17D15E4DE54008EFF36 /* Bob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bob.cpp; sourceTree = "<group>"; };
+		A5EFF17F15E4DFD0008EFF36 /* defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
+		A5EFF18015E4E0D4008EFF36 /* CBobsMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CBobsMap.cpp; sourceTree = "<group>"; };
+		A5EFF18115E4E0D4008EFF36 /* CBobsMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBobsMap.h; sourceTree = "<group>"; };
+		A5EFF18315E4E134008EFF36 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		A5EFF18415E4E134008EFF36 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		A5F885E015E34EC6006BFBD9 /* Other.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Other.h; sourceTree = "<group>"; };
+		A5F885E315E34F1D006BFBD9 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		A5F885E415E34F1D006BFBD9 /* Test.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Test.mm; sourceTree = "<group>"; };
+		A5F885E615E3517D006BFBD9 /* GenericAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GenericAlgorithm.cpp; sourceTree = "<group>"; };
+		A5F885E715E3517D006BFBD9 /* GenericAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericAlgorithm.h; sourceTree = "<group>"; };
+		A5F885E815E3517E006BFBD9 /* Sprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sprite.cpp; sourceTree = "<group>"; };
+		A5F885E915E3517F006BFBD9 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		A5F8884A15E354F0006BFBD9 /* GA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GA.h; sourceTree = "<group>"; };
+		A5F8884B15E354FD006BFBD9 /* GA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GA.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A57A72DB15E22B3B002190FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57A72E315E22B3B002190FA /* UIKit.framework in Frameworks */,
+				A57A72E515E22B3B002190FA /* Foundation.framework in Frameworks */,
+				A57A72E715E22B3B002190FA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A57A72D315E22B3B002190FA = {
+			isa = PBXGroup;
+			children = (
+				A57A72E815E22B3B002190FA /* GATest */,
+				A57A72E115E22B3B002190FA /* Frameworks */,
+				A57A72DF15E22B3B002190FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A57A72DF15E22B3B002190FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A57A72DE15E22B3B002190FA /* GATest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A57A72E115E22B3B002190FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A57A72E215E22B3B002190FA /* UIKit.framework */,
+				A57A72E415E22B3B002190FA /* Foundation.framework */,
+				A57A72E615E22B3B002190FA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A57A72E815E22B3B002190FA /* GATest */ = {
+			isa = PBXGroup;
+			children = (
+				A57A72F115E22B3B002190FA /* AppDelegate.h */,
+				A57A72F215E22B3B002190FA /* AppDelegate.mm */,
+				A57A72F415E22B3B002190FA /* ViewController.h */,
+				A57A72F515E22B3B002190FA /* ViewController.mm */,
+				A57A72F715E22B3B002190FA /* ViewController.xib */,
+				A57A72E915E22B3B002190FA /* Supporting Files */,
+				A5F885E015E34EC6006BFBD9 /* Other.h */,
+				A5F885E315E34F1D006BFBD9 /* Test.h */,
+				A5F885E415E34F1D006BFBD9 /* Test.mm */,
+				A5F885E715E3517D006BFBD9 /* GenericAlgorithm.h */,
+				A5F885E615E3517D006BFBD9 /* GenericAlgorithm.cpp */,
+				A5F8884A15E354F0006BFBD9 /* GA.h */,
+				A5F8884B15E354FD006BFBD9 /* GA.cpp */,
+				A5F885E915E3517F006BFBD9 /* Sprite.h */,
+				A5F885E815E3517E006BFBD9 /* Sprite.cpp */,
+				A5EFF16015E4ADA1008EFF36 /* SpriteView.h */,
+				A5EFF16115E4ADA1008EFF36 /* SpriteView.mm */,
+				A5EFF17B15E4DE4A008EFF36 /* Bob.h */,
+				A5EFF17D15E4DE54008EFF36 /* Bob.cpp */,
+				A5EFF18115E4E0D4008EFF36 /* CBobsMap.h */,
+				A5EFF18015E4E0D4008EFF36 /* CBobsMap.cpp */,
+				A5EFF18415E4E134008EFF36 /* utils.h */,
+				A5EFF18315E4E134008EFF36 /* utils.cpp */,
+				A5EFF17F15E4DFD0008EFF36 /* defines.h */,
+				A50913B915E5D3DD00CF36CF /* BobGameView.h */,
+				A50913BD15E5D7CB00CF36CF /* BobGameView.mm */,
+			);
+			path = GATest;
+			sourceTree = "<group>";
+		};
+		A57A72E915E22B3B002190FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A57A72EA15E22B3B002190FA /* GATest-Info.plist */,
+				A57A72EB15E22B3B002190FA /* InfoPlist.strings */,
+				A57A72EE15E22B3B002190FA /* main.m */,
+				A57A72F015E22B3B002190FA /* GATest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A57A72DD15E22B3B002190FA /* GATest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57A72FC15E22B3C002190FA /* Build configuration list for PBXNativeTarget "GATest" */;
+			buildPhases = (
+				A57A72DA15E22B3B002190FA /* Sources */,
+				A57A72DB15E22B3B002190FA /* Frameworks */,
+				A57A72DC15E22B3B002190FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GATest;
+			productName = GATest;
+			productReference = A57A72DE15E22B3B002190FA /* GATest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A57A72D515E22B3B002190FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A57A72D815E22B3B002190FA /* Build configuration list for PBXProject "GATest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A57A72D315E22B3B002190FA;
+			productRefGroup = A57A72DF15E22B3B002190FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A57A72DD15E22B3B002190FA /* GATest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A57A72DC15E22B3B002190FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57A72ED15E22B3B002190FA /* InfoPlist.strings in Resources */,
+				A57A72F915E22B3B002190FA /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A57A72DA15E22B3B002190FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57A72EF15E22B3B002190FA /* main.m in Sources */,
+				A57A72F315E22B3B002190FA /* AppDelegate.mm in Sources */,
+				A57A72F615E22B3B002190FA /* ViewController.mm in Sources */,
+				A5F885E115E34EC6006BFBD9 /* Other.h in Sources */,
+				A5F885E515E34F1D006BFBD9 /* Test.mm in Sources */,
+				A5F885EA15E3517F006BFBD9 /* GenericAlgorithm.cpp in Sources */,
+				A5F885EB15E3517F006BFBD9 /* Sprite.cpp in Sources */,
+				A5F8884C15E354FF006BFBD9 /* GA.cpp in Sources */,
+				A5EFF16215E4ADA1008EFF36 /* SpriteView.mm in Sources */,
+				A5EFF17E15E4DE54008EFF36 /* Bob.cpp in Sources */,
+				A5EFF18215E4E0D5008EFF36 /* CBobsMap.cpp in Sources */,
+				A5EFF18515E4E134008EFF36 /* utils.cpp in Sources */,
+				A50913BE15E5D7CB00CF36CF /* BobGameView.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A57A72EB15E22B3B002190FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A57A72EC15E22B3B002190FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A57A72F715E22B3B002190FA /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A57A72F815E22B3B002190FA /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A57A72FA15E22B3C002190FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A57A72FB15E22B3C002190FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A57A72FD15E22B3C002190FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GATest/GATest-Prefix.pch";
+				INFOPLIST_FILE = "GATest/GATest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A57A72FE15E22B3C002190FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GATest/GATest-Prefix.pch";
+				INFOPLIST_FILE = "GATest/GATest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A57A72D815E22B3B002190FA /* Build configuration list for PBXProject "GATest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57A72FA15E22B3C002190FA /* Debug */,
+				A57A72FB15E22B3C002190FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57A72FC15E22B3C002190FA /* Build configuration list for PBXNativeTarget "GATest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57A72FD15E22B3C002190FA /* Debug */,
+				A57A72FE15E22B3C002190FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A57A72D515E22B3B002190FA /* Project object */;
+}
