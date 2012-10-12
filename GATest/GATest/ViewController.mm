@@ -25,6 +25,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 	// Do any additional setup after loading the view, typically from a nib.
     /*
     SpritesView *view = [[SpritesView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
